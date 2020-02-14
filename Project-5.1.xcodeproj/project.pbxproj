@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56089D8023F69903006D6108 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		56C66E2723F5BAD500468C0E /* Project-5.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-5.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C66E2A23F5BAD500468C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C66E2C23F5BAD500468C0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				56C66E3623F5BAD600468C0E /* Base */,
+				56089D8023F69903006D6108 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
