@@ -15,13 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="Gridy-name-small-green" translatesAutoresizingMaskIntoConstraints="NO" id="MdG-Ko-Xea">
-                                <rect key="frame" x="31" y="134" width="352" height="143"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="143" id="M3a-H6-Zpl"/>
-                                    <constraint firstAttribute="width" constant="352" id="fNJ-8U-GW0"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge yourself with a photo puzzle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c43-fR-Cng">
                                 <rect key="frame" x="40" y="245" width="354" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -93,12 +86,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.91372549020000005" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Gridy-name-large-green" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-fs-S3S">
+                                <rect key="frame" x="36" y="118" width="330" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="c43-fR-Cng" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="201" id="dvX-Hk-jge"/>
-                            <constraint firstItem="MdG-Ko-Xea" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gk8-hq-fJc"/>
-                            <constraint firstItem="MdG-Ko-Xea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="kaZ-p9-JEs"/>
                             <constraint firstItem="c43-fR-Cng" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="mdA-yM-HCH"/>
                             <constraint firstItem="c43-fR-Cng" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="omz-m5-h1N"/>
                         </constraints>
@@ -117,6 +112,6 @@
     <resources>
         <image name="Gridy-camera" width="36" height="28"/>
         <image name="Gridy-library" width="36" height="28"/>
-        <image name="Gridy-name-small-green" width="70" height="34"/>
+        <image name="Gridy-name-large-green" width="330" height="160"/>
     </resources>
 </document>
